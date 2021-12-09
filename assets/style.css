@@ -1,0 +1,211 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EAE3F1;
+    margin: 0;
+}
+
+/* Global */
+
+.bo {
+    font-weight: bold;
+}
+
+.ce {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.te-ce {
+    text-align: center;
+}
+
+/* Header */
+
+.he {
+    margin: 25px 50px 0 0;
+    padding-right: 35px;
+    position: relative;
+    background-color: #F1F4FB;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2), 0 6px 20px 0 rgba(100, 100, 100, 0.19);
+}
+
+.he-img{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.he-text {
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.fo {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #F1F4FB;
+}
+
+/* Card */
+
+.co {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+
+.ca-co {
+    position: relative;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.ca {
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2), 0 6px 20px 0 rgba(100, 100, 100, 0.19);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin: 25px 0;
+}
+
+.ca-title {
+    padding: 25px 35px 20px 35px;
+    background-color: #C3E7FF;
+    border-radius: 50px 50px 0 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.ca-body {
+    padding: 20px 25px 35px 25px;
+}
+
+.ca-bo-img-lg {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.ca-bo-img-sm {
+    height: auto;
+    max-width: 30%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Hobby */
+
+#ca-hobby {
+    margin-top: 0;
+}
+
+.hobby-1 {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #388E3C;
+}
+
+.hobby-2 {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #1976D2;
+}
+
+.hobby-3 {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #C2185B;
+}
+
+/* Contact */
+
+.contact-1 {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #4267B2;
+    color: #FFFFFF;
+}
+
+.contact-2 {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #EA4335;
+    color: #FFFFFF;
+}
+
+.contact-3 {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #3CBA54;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    /* Header */
+    
+    .he-img{
+        margin: 20px 50px;
+        height: 125px;
+        width: 125px;
+    }
+    
+    .he-text {
+        left: 200px;
+        font-size: 2.25em;
+    }
+
+    /* Card */
+
+    .ca-co {
+        flex: 0 0 46%;
+        max-width: 46%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    #ca-hobby {
+        margin-top: 25px;
+    }
+}
