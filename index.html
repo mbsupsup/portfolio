@@ -15,11 +15,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Michael's Portfolio</title>
+    <link rel="icon" href="assets/me.png">
 </head>
 <body>
     <div class="he animate__animated animate__fadeInLeftBig">
-        <img class="he-img" src="assets/me.jpg" alt="Michael's Photo">
+        <img class="he-img" src="assets/me.png" alt="Michael's Photo">
         <div class="he-text">
             Hi, I'm Michael Bryan Supsup!
         </div>
@@ -27,12 +30,14 @@
 
     <div class="co">
         <div class="ca-co">
-            <div class="ca animate__animated animate__zoomIn animate__delay-2s">
+            <div class="ca animate__animated animate__fadeIn animate__delay-1s">
                 <div class="ca-title">
                     <i class="fas fa-fw fa-tasks"></i> Projects
                 </div>
                 <div class="ca-body">
-                    <img class="ca-bo-img-lg" src="assets/proj-1.png" alt="DGS Theatre">
+                    <a href="assets/proj-1.png" data-lightbox="project" data-title="DGS Theatre">
+                        <img class="ca-bo-img-lg" src="assets/proj-1.png" alt="DGS Theatre">
+                    </a>
                     <div class="bo te-ce">
                         DGS Theatre
                     </div>
@@ -40,7 +45,9 @@
                     An activity we developed on our 4th year in Central Luzon State University using PHP. DGS theatre is a movie booking system that has custumer and admin modules.
                 </div>
                 <div class="ca-body">
-                    <img class="ca-bo-img-lg" src="assets/proj-2.png" alt="Guess My Appearance!">
+                    <a href="assets/proj-2.png" data-lightbox="project" data-title="Guess My Appearance!">
+                        <img class="ca-bo-img-lg" src="assets/proj-2.png" alt="Guess My Appearance!">
+                    </a>
                     <div class="bo te-ce">
                         Guess My Appearance!
                     </div>
@@ -48,7 +55,9 @@
                     A project we developed on our 2nd year in Central Luzon State University using Java. Guess My Appearance! is a guessing game in which you have limited number of tries to guess the character's appearance.
                 </div>
                 <div class="ca-body">
-                    <img class="ca-bo-img-lg" src="assets/proj-3.png" alt="Instabook">
+                    <a href="assets/proj-3.png" data-lightbox="project" data-title="Instabook">
+                        <img class="ca-bo-img-lg" src="assets/proj-3.png" alt="Instabook">
+                    </a>
                     <div class="bo te-ce">
                         Instabook
                     </div>
@@ -59,7 +68,7 @@
         </div>
 
         <div class="ca-co">
-            <div class="ca animate__animated animate__zoomIn animate__delay-2s" id="ca-hobby">
+            <div class="ca animate__animated animate__fadeIn animate__delay-1s" id="ca-hobby">
                 <div class="ca-title">
                     <i class="fas fa-fw fa-heart"></i> Hobbies
                 </div>
@@ -75,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="ca animate__animated animate__zoomIn animate__delay-2s">
+            <div class="ca animate__animated animate__fadeIn animate__delay-1s">
                 <div class="ca-title">
                     <i class="fas fa-fw fa-graduation-cap"></i> Education
                 </div>
@@ -100,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="ca animate__animated animate__zoomIn animate__delay-2s" id="ca-hobby">
+            <div class="ca animate__animated animate__fadeIn animate__delay-1s" id="ca-hobby">
                 <div class="ca-title">
                     <i class="fas fa-fw fa-envelope"></i> Contact Me
                 </div>
@@ -112,11 +121,11 @@
                     <div class="contact-2">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <a href = "mailto: mbsupsup@gmail.com">Send Email</a><br><br>
+                    <a href = "mailto: mbsupsup@gmail.com">Email</a><br><br>
                     <div class="contact-3">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <a href="tel: +639661489171">+63 966 148 9171</a><br><br>
+                    <a href="tel: +639661489171">Phone</a><br><br>
                 </div>
             </div>
         </div>
@@ -126,5 +135,9 @@
         Copyright © 2021<br>
         Michael Bryan Supsup
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
